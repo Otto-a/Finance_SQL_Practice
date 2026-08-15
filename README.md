@@ -13,8 +13,8 @@ This repository contains a collection of 100 progressive SQL queries designed to
 
 ## 🗄️ Database Schema
 The `finance_practice_db` mimics a core banking/lending system with the following 5 tables:
-1. **`Customers`**: Client details, joining dates, credit scores, and M-PESA numbers.
-2. **`Loans`**: Loan applications, disbursement dates, interest rates, and active balances.
+1. **`Customers`**: Client details, joining dates, credit scores and M-PESA numbers.
+2. **`Loans`**: Loan applications, disbursement dates, interest rates and active balances.
 3. **`Repayments`**: Transaction logs containing payment channels (e.g., M-PESA, Bank) and receipt numbers.
 4. **`Guarantors`**: Risk evaluation tracking who guaranteed which loan and via what channel (e.g., USSD).
 5. **`Sacco_Shares`**: Records of customer savings/shares values used as loan collateral.
@@ -24,14 +24,14 @@ The SQL challenges are broken down into 10 levels, ranging from basic data retri
 
 * `00_Setup_Database.sql` - *Creates the schema and inserts mock data.*
 * `01_Level_1_Retrieval.sql` - *Basic `SELECT`, `AS`, `DISTINCT` operations.*
-* `02_Level_2_Filtering.sql` - *`WHERE`, `IN`, `LIKE`, `BETWEEN`, and sorting.*
+* `02_Level_2_Filtering.sql` - *`WHERE`, `IN`, `LIKE`, `BETWEEN` and sorting.*
 * `03_Level_3_Aggregation.sql` - *Math and Aggregate functions (`SUM`, `AVG`, `COUNT`).*
 * `04_Level_4_Grouping.sql` - *`GROUP BY` and `HAVING` clauses.*
-* `05_Level_5_Joins.sql` - *`INNER`, `LEFT`, and Self Joins across tables.*
+* `05_Level_5_Joins.sql` - *`INNER`, `LEFT` and Self Joins across tables.*
 * `06_Level_6_Date_Time.sql` - *Date manipulation for turnaround times and due dates.*
 * `07_Level_7_Subqueries.sql` - *Nested queries and Common Table Expressions (CTEs).*
-* `08_Level_8_Window_Functions.sql` - *`RANK()`, `LEAD()`, and running totals.*
-* `09_Level_9_Case_String.sql` - *Data cleaning, masking, and conditional logic.*
+* `08_Level_8_Window_Functions.sql` - *`RANK()`, `LEAD()` and running totals.*
+* `09_Level_9_Case_String.sql` - *Data cleaning, masking and conditional logic.*
 * `10_Level_10_FinTech_Logic.sql` - *Complex business logic (Arrears, NPL ratios, Automated Appraisals).*
 
 ## 🚀 How to Run Locally
