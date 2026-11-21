@@ -1,17 +1,18 @@
-# 📊 FinTech SQL Practice Repository
+#  FinTech SQL Practice Repository
 
 **Database Name:** `finance_practice_db`  
 
 ## 📝 About This Project
 This repository contains a collection of 100 progressive SQL queries designed to simulate real-world data analysis tasks in a FinTech environment. It focuses heavily on Loan Management Systems (LMS), M-PESA transaction tracking, Guarantor evaluations and SACCO shares data. 
 
-## 🛠️ Tech Stack & Tools Used
+## FinTech Visualizations
+![Practice Visualization](https://github.com/Otto-a/Finance_SQL_Practice/blob/main/Financial%20Practice%20Visualization.png)
+
+##  Tech Stack & Tools Used
 * **Database Engine:** MySQL 8.0
-* **IDE/Editor:** Visual Studio Code (VS Code)
-* **Extensions:** SQLTools (Direct MySQL integration in VS Code)
 * **Version Control:** Git & GitHub
 
-## 🗄️ Database Schema
+## Database Schema
 The `finance_practice_db` mimics a core banking/lending system with the following 5 tables:
 1. **`Customers`**: Client details, joining dates, credit scores and M-PESA numbers.
 2. **`Loans`**: Loan applications, disbursement dates, interest rates and active balances.
@@ -34,7 +35,7 @@ The SQL challenges are broken down into 10 levels, ranging from basic data retri
 * `09_Level_9_Case_String.sql` - *Data cleaning, masking and conditional logic.*
 * `10_Level_10_FinTech_Logic.sql` - *Complex business logic (Arrears, NPL ratios, Automated Appraisals).*
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 To practice or test these queries on your own machine:
 1. Clone this repository to your local machine.
 2. Open your MySQL client or VS Code with the SQLTools extension.
